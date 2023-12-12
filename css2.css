@@ -1,0 +1,68 @@
+.drop ul, .drop li{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.drop ul{
+    position: relative;
+    width: 100%;
+    background: black;
+    list-style: none;
+}
+
+
+.drop li{
+    position: relative;
+    float: left;
+    background: black;
+
+}
+
+.drop a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+
+    color: whitesmoke;
+    position: relative;
+
+   margin: 15px 55px;
+   
+
+
+}
+
+
+
+#sub{
+    visibility: hidden;
+    opacity: 0;
+
+    top: 45px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+
+}
+#sub ul{
+    border-radius: 9px;
+}
+
+li:hover ul#sub{
+    opacity: 1;
+    visibility: visible;
+    
+    width: 100%;
+}
+
+li:hover ul{
+    border-radius: 10px;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+}
